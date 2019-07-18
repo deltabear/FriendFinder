@@ -1,0 +1,28 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Welcome to FriendFinder, your buddy-building app! Using user surveys, you will be matched by your matching answers to other users.",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "node-geocoder": "^3.23.0",
+    "node-spotify-api": "^1.1.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delzerbear/FriendFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/delzerbear/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/delzerbear/FriendFinder#readme"
+}
