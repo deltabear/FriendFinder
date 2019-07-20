@@ -9,6 +9,11 @@ var PORT = process.env.PORT || 8080;
 // Create express app instance.
 var app = express();
 
+// ROUTER
+// These routes give our server a map for responding to users
+require("./app/routing/apiRoutes")(app);
+require("./app/routing/htmlRoutes")(app);
+
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
     // Log (server-side) when our server has started
