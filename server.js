@@ -9,6 +9,10 @@ var PORT = process.env.PORT || 8080;
 // Create express app instance.
 var app = express();
 
+// Sets up the Express app to handle data parsing
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
 // ROUTER
 // These routes give our server a map for responding to users
 require("./app/routing/apiRoutes")(app);
