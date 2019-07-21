@@ -58,7 +58,7 @@ module.exports = function(app) {
         }
   
         // If the sum of differences is less then the differences of the current "platonic match"
-        if (totalDifference <= bestMatch.friendDifference) {
+        if (totalDifference <= platonicMatch.friendDifference) {
           // Reset the bestMatch to be the new friend.
           platonicMatch.name = currentFriend.name;
           platonicMatch.photo = currentFriend.photo;
