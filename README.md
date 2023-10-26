@@ -2,7 +2,7 @@
 
 * Welcome to FriendFinder, your buddy-building app! Using user surveys (or "consulting the Wizard"), you will be matched by your matching answers to other users who will be your best Platonic Match.
 
-* To see the full-deployed app, please visit the Heroku environment: https://friendfinder-delzer19.herokuapp.com/
+* The Heroku environemnt is no longer active due to changes with the host website.
 
 ## Assets
 
